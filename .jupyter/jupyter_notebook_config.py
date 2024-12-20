@@ -8,7 +8,7 @@ try:
     c = get_config()
 
     # Root directory for notebook
-    c.ServerApp.root_dir="/app/"
+    c.NotebookApp.root_dir="/app/"
 
     # Starting directory for notebook
     c.FileContentsManager.preferred_dir="./notebooks"
