@@ -7,9 +7,12 @@ try:
 
     c = get_config()
 
+    # Root directory for notebook
+    c.ServerApp.root_dir="/app/"
+
     # Starting directory for notebook
     c.FileContentsManager.preferred_dir="./notebooks"
-    
+
     ### Password protection ###
     # http://jupyter-notebook.readthedocs.io/en/latest/security.html
     if os.environ.get('JUPYTER_NOTEBOOK_PASSWORD_DISABLED') != 'DangerZone!':
