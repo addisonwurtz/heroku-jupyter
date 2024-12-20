@@ -7,6 +7,9 @@ try:
 
     c = get_config()
 
+    # Starting directory for notebook
+    c.FileContentsManager.preferred_dir="./notebooks"
+    
     ### Password protection ###
     # http://jupyter-notebook.readthedocs.io/en/latest/security.html
     if os.environ.get('JUPYTER_NOTEBOOK_PASSWORD_DISABLED') != 'DangerZone!':
