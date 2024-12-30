@@ -23,9 +23,6 @@ echo "Starting Jupyter Lab"
 # so be careful w/ the URL and password. Don't put sensitive data up here.
 jupyter notebook \
     --no-browser --ip=0.0.0.0 --port=$PORT \
-    --notebook-dir="./notebooks" \
-#   --FileContentsManager.prefered_dir="./notebooks" \
-#    --ServerApp.preferred_dir="./notebooks" \
 #    --NotebookApp.allow_origin='*' --NotebookApp.allow_credentials=True \
 #    $JUPYTER_NOTEBOOK_ARGS \
 #    notebooks
