@@ -24,6 +24,3 @@ echo "Starting Jupyter Lab"
 jupyter notebook \
     --no-browser --ip=0.0.0.0 --port=$PORT \
     --Application.log_level=0
-    --SeverApp.allow_origin='*' --ServerApp.allow_credentials=True \
-    $JUPYTER_NOTEBOOK_ARGS \
-    notebooks
