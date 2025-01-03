@@ -8,10 +8,10 @@ try:
     c = get_config()
 
     # Root directory for notebook
-    c.ServerApp.root_dir="./notebooks"
+    #c.ServerApp.root_dir="./notebooks"
 
     # Starting directory for notebook
-    c.FileContentsManager.preferred_dir="./notebooks"
+    #c.FileContentsManager.preferred_dir="./notebooks"
 
     ### Password protection ###
     # http://jupyter-notebook.readthedocs.io/en/latest/security.html
