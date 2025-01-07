@@ -11,7 +11,7 @@ try:
     c.ServerApp.root_dir='/'
 
     # Starting directory for notebook
-    c.FileContentsManager.preferred_dir='notebooks'
+    #c.FileContentsManager.preferred_dir='notebooks'
 
     ### Password protection ###
     # http://jupyter-notebook.readthedocs.io/en/latest/security.html
