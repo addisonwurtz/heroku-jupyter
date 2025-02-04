@@ -85,6 +85,7 @@ heroku config:set JUPYTER_NOTEBOOK_PASSWORD_DISABLED=DangerZone! -a $APP_NAME
 
 ## Environment / Config variables
 - `JUPYTER_NOTEBOOK_PASSWORD`: Set password for notebooks
+- `JUPYTER_NOTEBOOK_OR_LAB`: Set to `notebook` or `lab` to determine which Jupyter application to launch
 - `JUPYTER_NOTEBOOK_PASSWORD_DISABLED`: Set to `DangerZone!` to disable password protection
 - `JUPYTER_NOTEBOOK_ARGS`: Additional command line args passed to `jupyter notebook`; e.g. get a more verbose logging using `--debug`
 
